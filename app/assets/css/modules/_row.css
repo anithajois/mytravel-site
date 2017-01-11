@@ -6,6 +6,12 @@
     &__gutters > div {
         padding-right: 65px;
      }
+    &__gutters-small {
+        margin-right: -45px;
+     }
+     &__gutters-small > div {
+        padding-right: 45px;
+      }
 
 &__gutters-large {
      margin-right: -100px;
@@ -38,6 +44,21 @@
         width: 50%;
      }
     }
+    &__t-padding {
+        padding-top: 80px;
+     }
+
+     /* Begin equal heights */
+    &__equal-at-medium-height {
+        @mixin atMedium {
+            display: flex;
+        }
+        & > div {
+            float: none;
+            display: flex;
+            }
+
+     }
 
 
 }

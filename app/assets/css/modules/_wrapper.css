@@ -10,6 +10,16 @@
 	max-width: 976px;
  }
 
+  &--no-padding-unti-medium {
+	padding-right: 0px;
+	padding-left: 0px;
+
+	@mixin atMedium {
+		padding-right: 18px;
+		padding-left: 18px;
+	}
+   }
+
  .wrapper {
 	padding-right: 0;
 	padding-left: 0;
