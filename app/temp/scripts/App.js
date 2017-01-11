@@ -52,7 +52,7 @@
 	var jane = new Person("Jane Smith", "green");
 	jane.greet();
 
-	$("h1").remove();
+
 
 /***/ },
 /* 1 */
