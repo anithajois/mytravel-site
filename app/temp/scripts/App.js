@@ -47,6 +47,8 @@
 	var $ = __webpack_require__(1);
 	var Person = __webpack_require__(2);
 
+	alert("This is a test for webpack");
+
 	var john = new Person("John Doe", "blue");
 	john.greet();
 	var jane = new Person("Jane Smith", "green");
